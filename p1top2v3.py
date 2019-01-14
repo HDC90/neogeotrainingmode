@@ -1,3 +1,5 @@
+#! python3
+
 import pyautogui
 from inputs import get_gamepad
 

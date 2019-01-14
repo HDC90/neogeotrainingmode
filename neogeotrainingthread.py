@@ -1,13 +1,12 @@
 import pyautogui
 import keyboard
 import time
-from multiprocessing import process
+from threading import *
 from inputs import get_gamepad
 
 pyautogui.PAUSE = 0
 
-
-class P1_to_p2(process):
+class P1_to_p2(Thread):
     # Passage joueur 2
     def run(self):
         while True:
@@ -80,7 +79,7 @@ class P1_to_p2(process):
                 break
 
 
-class Dummy_record(process):
+class Dummy_record(Thread):
     # Module record
     def run(self):
         while True:
