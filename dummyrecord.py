@@ -1,4 +1,5 @@
-import keyboard, time
+import keyboard
+import time
 from inputs import get_gamepad
 
 
