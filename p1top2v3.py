@@ -4,11 +4,10 @@ from inputs import get_gamepad
 pyautogui.PAUSE = 0
 
 
-def p1top2():
+def p1_to_p2():
     while True:
         events = get_gamepad()
         for event in events:
-            # print(event.ev_type, event.code, event.state)
             # direction vers le bas
             if event.code == 'ABS_HAT0Y':
                 if event.state == 1:
@@ -80,4 +79,4 @@ while True:
     for event in get_gamepad():
         if event.code == 'BTN_TR' and event.state == int(1):
             print('P2 START')
-            p1top2()
+            p1_to_p2()
