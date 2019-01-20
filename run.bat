@@ -1,2 +1,2 @@
-@py.exe dummycontrol.py %*
-@py.exe dummyrecord.py %*
+start /B .\venv\Scripts\python.exe dummycontrol.py %*
+start /B .\venv\Scripts\python.exe dummyrecord.py %*

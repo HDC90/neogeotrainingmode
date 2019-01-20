@@ -1,0 +1,1 @@
+start /B .\venv\Scripts\python.exe xinputlisten.py %*
