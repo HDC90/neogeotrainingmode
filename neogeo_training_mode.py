@@ -133,14 +133,9 @@ def dummy_record():
                     recorded = keyboard.record(until=stop)
                     print('Enregistrement terminé')
                 elif event.code == play and event.state > int(0):
-                    print('Dummy replay in 3')
-                    time.sleep(1)
-                    print('2')
-                    time.sleep(1)
-                    print('1')
-                    time.sleep(1)
+                    print('Dummy replay')
                     keyboard.play(recorded)
-                    print('fin du replay')
+                    print('End replay')
             except:
                 print("oups rien d'enregitré")
                 pass
