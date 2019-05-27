@@ -1,21 +1,21 @@
-# Neo Geo Training Mode
+# Neo Geo Training Mode #
 
-## Getting Started
+## Getting Started ###
 
 Neo Geo Training Mode (NTM) is a tool on top of Fightcade witch gives you Dummy control and record/play features for Garou Mark Of The Wolves.
 
-### Prerequisites
+### Prerequisites ### ###
 
 * Install [python 3.7](https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe)
 * Latest [Unibios](http://unibios.free.fr/download.html) and be able to use it in offline Fightcade 1
 * Latest [Fightcade 1](https://www.fightcade.com/download/windows)
 
-### Features
+### Features ###
 
 * Dummy control
 * Record and play p2 inputs
 
-### Instructions
+### Instructions ###
 
 1. Click on **Clone or Download** and **Download ZIP**
 2. Run run_iv.bat and test your controller inputs
@@ -24,7 +24,7 @@ Neo Geo Training Mode (NTM) is a tool on top of Fightcade witch gives you Dummy 
 5. Chose P1 and P2 characters
 6. run run_ntm.bat and start training
 
-### Default ini
+### Default ini ###
 
 ```
 [p1 controls]
@@ -53,3 +53,6 @@ record = BTN_TL
 stop = a
 play = ABS_Z
 ```
+### NOTE: ###
+
+**This tool is in an early stage and i'm not a software developer**
